@@ -19,7 +19,8 @@ These screenshots are CODE for the second screen of the UI.The code shown give a
 
 SCREEENSHOT OF MAIN SCREEN :
 This screenshot show how the UI LOOKS with all its componenets 
-![MAIN1](https://github.com/user-attachments/assets/64cd50cc-dbfc-4957-b0ee-700cceed2085)
+![Screenshot 2025-06-19 121216](https://github.com/user-attachments/assets/f654445b-9b3c-4932-a32a-a81fe9e7d8d1)
+
 
 SCREEENSHOT OF DETAIL VIEW SCREEN :
 This screenshot show how the UI LOOKS with all its componenets 

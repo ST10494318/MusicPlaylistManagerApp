@@ -1,5 +1,6 @@
 package za.ac.iie.musicplaylistmanagerapp
 
+import android.media.Rating
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
@@ -15,6 +16,11 @@ class MainActivity : AppCompatActivity() {
     private lateinit var ViewButton : Button
     private lateinit var ExitButton : Button
 
+    //Arrays to store given data
+    private val Song = mutableListOf<String>()
+    private val Artist = mutableListOf<String>()
+    private val Rating = mutableListOf<String>()
+    private val Comment = mutableListOf<String>()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

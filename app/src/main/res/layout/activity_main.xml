@@ -7,7 +7,7 @@
     android:padding="16dp">
 
     <EditText
-        android:id="@+id/songInput"
+        android:id="@+id/songsInput"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="84dp"
@@ -26,10 +26,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/songInput" />
+        app:layout_constraintTop_toBottomOf="@id/songsInput" />
 
     <EditText
-        android:id="@+id/ratingInput"
+        android:id="@+id/ratingsInput"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
@@ -41,7 +41,7 @@
         app:layout_constraintTop_toBottomOf="@id/artistInput" />
 
     <EditText
-        android:id="@+id/commentInput"
+        android:id="@+id/commentsInput"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
@@ -49,7 +49,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/ratingInput" />
+        app:layout_constraintTop_toBottomOf="@id/ratingsInput" />
 
     <Button
         android:id="@+id/addButton"
@@ -58,7 +58,7 @@
         android:layout_marginTop="108dp"
         android:text="Add to Playlist"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/commentInput" />
+        app:layout_constraintTop_toBottomOf="@id/commentsInput" />
 
     <Button
         android:id="@+id/viewButton"

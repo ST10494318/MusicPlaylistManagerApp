@@ -58,7 +58,7 @@ class MainActivity : AppCompatActivity() {
 
         // Viewbutton function
         viewButton.setOnClickListener {
-            val intent = Intent(this, DetailedView::class.java)
+            val intent = Intent(this, DetailedViewActivity::class.java)
             intent.putStringArrayListExtra("songs", ArrayList(songs))
             intent.putStringArrayListExtra("artists", ArrayList(artists))
             intent.putIntegerArrayListExtra("ratings", ArrayList(ratings))
@@ -71,6 +71,7 @@ class MainActivity : AppCompatActivity() {
             finish()
         }
     }
+
 
     // Clearbutton function
     private fun clearInputs() {

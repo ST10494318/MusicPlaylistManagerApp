@@ -8,8 +8,9 @@ ALL SCREENSHOT OF PROJECT DOWN BELOW:
 
 MAIN ACTIVITY IMAGES:
 These screenshots are CODE for the firts screen of the UI.The code shown give an easy explanation of the working of the program in the first UI. 
-![MAINACTIVITY](https://github.com/user-attachments/assets/6a01289f-015f-4197-92f2-e3d64b3149e5)
-![MAINACTIVITY2](https://github.com/user-attachments/assets/8eb57e12-1e28-4a7b-9f06-66f38cd1cd87)
+![Screenshot 2025-06-19 121113](https://github.com/user-attachments/assets/4d9c450a-4443-4f8d-b4ca-2dd1607bb57a)
+![Screenshot 2025-06-19 121127](https://github.com/user-attachments/assets/00a69458-f47f-49dd-9379-740d29c0a370)
+
 
 DETAILEDVIEW ACTIVITY IMAGES :
 These screenshots are CODE for the second screen of the UI.The code shown give an easy explanation of the working of the program in the second UI. 

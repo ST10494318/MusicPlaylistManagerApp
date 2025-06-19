@@ -2,7 +2,6 @@ package za.ac.iie.musicplaylistmanagerapp
 
 // CHRIS LUFUILU ST10494318
 
-
 import android.content.Intent
 import android.os.Bundle
 import android.util.Log
@@ -74,7 +73,6 @@ class MainActivity : AppCompatActivity() {
             finish()
         }
     }
-
 
     // Clearbutton function
     private fun clearInputs() {

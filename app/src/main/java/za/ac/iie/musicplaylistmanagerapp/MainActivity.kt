@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
     private lateinit var viewButton: Button
     private lateinit var exitButton: Button
 
-    // Parallel arrays to store data
+    // Parallel array for data storing
     private val songs = mutableListOf<String>()
     private val artists = mutableListOf<String>()
     private val ratings = mutableListOf<Int>()
@@ -27,7 +27,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        // Initialize UI components
+        // UI components
         songsInput = findViewById(R.id.songsInput)
         artistInput = findViewById(R.id.artistInput)
         ratingsInput = findViewById(R.id.ratingsInput)
@@ -36,19 +36,19 @@ class MainActivity : AppCompatActivity() {
         viewButton = findViewById(R.id.viewButton)
         exitButton = findViewById(R.id.exitButton)
 
-        // Add button functionality
+        // Addbutton function
         addButton.setOnClickListener {
-            val song = songsInput.text.toString()
-            val artist = artistInput.text.toString()
-            val rating = ratingsInput.text.toString().toIntOrNull()
-            val comment = commentsInput.text.toString()
+            val Song = songsInput.text.toString()
+            val Artist = artistInput.text.toString()
+            val Rating = ratingsInput.text.toString().toIntOrNull()
+            val Comment = commentsInput.text.toString()
 
-            if (song.isNotEmpty() && artist.isNotEmpty() && rating != null && rating in 1..5 && comment.isNotEmpty()) {
-                songs.add(song)
-                artists.add(artist)
-                ratings.add(rating)
-                comments.add(comment)
-                Log.d("PlaylistApp", "Added: $song by $artist, Rating: $rating")
+            if (Song.isNotEmpty() && Artist.isNotEmpty() && Rating != null && Rating in 1..5 && Comment.isNotEmpty()) {
+                songs.add(Song)
+                artists.add(Artist)
+                ratings.add(Rating)
+                comments.add(Comment)
+                Log.d("PlaylistApp", "Added: $Song by $Artist, Rating: $Rating")
                 Toast.makeText(this, "Song added to playlist", Toast.LENGTH_SHORT).show()
                 clearInputs()
             } else {
@@ -56,9 +56,9 @@ class MainActivity : AppCompatActivity() {
             }
         }
 
-        // View button functionality
+        // Viewbutton function
         viewButton.setOnClickListener {
-            val intent = Intent(this, DetailedViewActivity::class.java)
+            val intent = Intent(this, DetailedView::class.java)
             intent.putStringArrayListExtra("songs", ArrayList(songs))
             intent.putStringArrayListExtra("artists", ArrayList(artists))
             intent.putIntegerArrayListExtra("ratings", ArrayList(ratings))
@@ -66,12 +66,13 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
-        // Exit button functionality
+        // Exit button function
         exitButton.setOnClickListener {
             finish()
         }
     }
 
+    // Clearbutton function
     private fun clearInputs() {
         songsInput.text.clear()
         artistInput.text.clear()

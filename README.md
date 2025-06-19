@@ -14,7 +14,8 @@ These screenshots are CODE for the firts screen of the UI.The code shown give an
 
 DETAILEDVIEW ACTIVITY IMAGES :
 These screenshots are CODE for the second screen of the UI.The code shown give an easy explanation of the working of the program in the second UI. 
-![DETAILEDVIEW](https://github.com/user-attachments/assets/81c1c616-b53a-40ff-93a0-1f308e61d57d)
+![Screenshot 2025-06-19 121203](https://github.com/user-attachments/assets/cf7a3133-2feb-439e-83cd-8146f40dabad)
+
 
 SCREEENSHOT OF MAIN SCREEN :
 This screenshot show how the UI LOOKS with all its componenets 

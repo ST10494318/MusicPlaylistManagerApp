@@ -9,18 +9,16 @@
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="335dp"
-        android:layout_height="39dp"
-        android:layout_marginStart="38dp"
-        android:layout_marginTop="32dp"
-        android:layout_marginEnd="22dp"
-        android:text="@string/music_manager_playlist_app"
+        android:layout_width="385dp"
+        android:layout_height="51dp"
+        android:background="@color/material_dynamic_primary80"
+        android:text="MUSIC MANAGER PLAYLIST APP"
         android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
         android:textSize="20sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="TextSizeCheck" />
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="16dp" />
 
     <TextView
         android:id="@+id/songListText"
@@ -29,6 +27,7 @@
         android:layout_marginStart="44dp"
         android:layout_marginTop="31dp"
         android:layout_marginEnd="36dp"
+        android:textColorHint="@color/black"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -41,6 +40,7 @@
         android:layout_marginStart="45dp"
         android:layout_marginTop="52dp"
         android:layout_marginEnd="35dp"
+        android:textColorHint="@color/black"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

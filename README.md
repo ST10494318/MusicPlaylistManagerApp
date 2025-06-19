@@ -1,5 +1,7 @@
 # MusicPlaylistManagerApp project
 
+This is the link to the source code of a kotlin project.The project uses loops and arrays to store and calculate the input(name of song , artist , rating and comment) of a user and calculates the average rate for the song list. 
+
 LINK TO REPOSITORY :https://github.com/ST10494318/MusicPlaylistManagerApp.git 
 
 ALL SCREENSHOT OF PROJECT DOWN BELOW:
@@ -22,4 +24,5 @@ SCREEENSHOT OF DETAIL VIEW SCREEN :
 EMULATOR SCREENSHOTS :
 ![EMU1](https://github.com/user-attachments/assets/ce8c9218-3a63-4167-97ce-4ff4c12ec114)
 ![EMU2](https://github.com/user-attachments/assets/0795ecd3-383f-40be-9ba0-8788c110f2e9)
+![EMU3](https://github.com/user-attachments/assets/0aadab51-ea53-4f17-b55b-850dec6656ab)
 

@@ -4,94 +4,140 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/back"
     android:padding="16dp">
+
+    <!-- Purple --><![CDATA[
+    android:textColor="#FFFFFF"
+    app:layout_constraintTop_toTopOf="@id/addButton"
+    app:layout_constraintEnd_toEndOf="parent"
+    android:layout_marginStart="16dp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    ]]>
 
     <EditText
         android:id="@+id/songsInput"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginTop="164dp"
         android:hint="Enter Song Title"
+        android:scrollbarThumbHorizontal="@color/design_default_color_error"
+        android:textColor="@color/design_default_color_on_secondary"
+        android:textColorHint="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="215dp" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/artistInput"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginTop="29dp"
         android:hint="Enter Artist Name"
+        android:textColorHint="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="294dp" />
+        app:layout_constraintTop_toBottomOf="@+id/songsInput" />
 
     <EditText
         android:id="@+id/ratingsInput"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginTop="31dp"
         android:hint="Enter Rating (1-5)"
         android:inputType="number"
+        android:textColorHint="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="370dp" />
+        app:layout_constraintTop_toBottomOf="@+id/artistInput" />
 
     <EditText
         android:id="@+id/commentsInput"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
         android:hint="Enter Comment"
+        android:textColorHint="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="439dp" />
+        app:layout_constraintTop_toBottomOf="@+id/ratingsInput" />
 
     <Button
         android:id="@+id/addButton"
-        android:layout_width="96dp"
-        android:layout_height="55dp"
-        android:layout_marginTop="52dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="151dp"
+        android:layout_marginTop="117dp"
+        android:layout_marginEnd="104dp"
+        android:background="#800080"
         android:text="Add to Playlist"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/commentsInput" />
+        app:layout_constraintTop_toBottomOf="@+id/commentsInput" />
 
     <Button
         android:id="@+id/viewButton"
-        android:layout_width="109dp"
-        android:layout_height="41dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="88dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="52dp"
+        android:background="#800080"
         android:text="View Playlist"
-        app:layout_constraintEnd_toStartOf="@id/exitButton"
-        app:layout_constraintHorizontal_bias="0.471"
-        app:layout_constraintStart_toEndOf="@id/addButton"
-        app:layout_constraintTop_toTopOf="@id/addButton" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addButton" />
 
     <Button
         android:id="@+id/exitButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="4dp"
+        android:layout_width="129dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="8dp"
+        android:background="#800080"
         android:text="Exit"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="@id/addButton" />
+        app:layout_constraintTop_toBottomOf="@+id/addButton" />
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="335dp"
-        android:layout_height="39dp"
+        android:layout_width="385dp"
+        android:layout_height="51dp"
+        android:background="@color/material_dynamic_primary80"
         android:text="MUSIC MANAGER PLAYLIST APP"
         android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
         android:textSize="20sp"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="7dp" />
-
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="317dp"
-        android:layout_height="115dp"
-        tools:layout_editor_absoluteX="32dp"
-        tools:layout_editor_absoluteY="62dp"
-        tools:srcCompat="@drawable/playlist" />
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="16dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

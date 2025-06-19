@@ -17,7 +17,8 @@ class DetailedViewActivity : AppCompatActivity() {
 
         val songListText = findViewById<TextView>(R.id.songListText)
         val avgRatingText = findViewById<TextView>(R.id.avgRatingText)
-        val backButton = findViewById<Button>(R.id.backButton)
+        val backButton : Button = findViewById(R.id.backButton)
+        val ExitButton : Button =findViewById(R.id.ExitButton)
 
         // Display song list
         val songDetails = songs.indices.joinToString("\n") { i ->
@@ -32,6 +33,10 @@ class DetailedViewActivity : AppCompatActivity() {
         // Back button functionality
         backButton.setOnClickListener {
             finish()
+        }
+
+        ExitButton.setOnClickListener {
+            finishAffinity()
         }
     }
 }

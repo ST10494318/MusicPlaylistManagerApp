@@ -25,6 +25,7 @@ This screenshot show how the UI LOOKS with all its componenets
 
 EMULATOR SCREENSHOTS :
 These screenshots show how the app looks like with the inpts of a user as well as the outputs after the user displaed them while the App is running 
+
 ![EMU1](https://github.com/user-attachments/assets/ce8c9218-3a63-4167-97ce-4ff4c12ec114)
 ![EMU2](https://github.com/user-attachments/assets/0795ecd3-383f-40be-9ba0-8788c110f2e9)
 ![EMU3](https://github.com/user-attachments/assets/0aadab51-ea53-4f17-b55b-850dec6656ab)

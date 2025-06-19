@@ -31,6 +31,8 @@ EMULATOR SCREENSHOTS :
 These screenshots show how the app looks like with the inpts of a user as well as the outputs after the user displaed them while the App is running 
 ![emu1](https://github.com/user-attachments/assets/be367167-81d6-4830-9860-fcdf992fb46d)
 ![emu2](https://github.com/user-attachments/assets/69ccd356-b340-4e61-9848-1c5d41ae3c1d)
+
+SHOWS THAT A SONG WAS ADDED TO THE LIST
 ![EMU3](https://github.com/user-attachments/assets/9818fffa-9beb-4fbd-b6c8-e9d3d2a13307)
 ![EMU4](https://github.com/user-attachments/assets/2bf56d55-4fdd-460d-89fa-a29e243934c1)
 

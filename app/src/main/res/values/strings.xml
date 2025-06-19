@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">MusicPlaylistManagerApp</string>
+    <string name="back_to_main">Back to Main</string>
+    <string name="music_manager_playlist_app">MUSIC MANAGER PLAYLIST APP</string>
 </resources>

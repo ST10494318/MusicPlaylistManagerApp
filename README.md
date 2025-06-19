@@ -1,4 +1,9 @@
 # MusicPlaylistManagerApp project
+////
+NAME :   CHRIS LUFUILU 
+
+STUDENT NUMBER : ST10494318
+///
 
 This is the link to the source code of a kotlin project.The project uses loops and arrays to store and calculate the input(name of song , artist , rating and comment) of a user and calculates the average rate for the song list. 
 

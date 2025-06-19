@@ -20,13 +20,13 @@ class DetailedViewActivity : AppCompatActivity() {
         val backButton : Button = findViewById(R.id.backButton)
         val ExitButton : Button =findViewById(R.id.ExitButton)
 
-        // Display song list
+        // Display LIST SONGS
         val songDetails = songs.indices.joinToString("\n") { i ->
             "Song: ${songs[i]}, Artist: ${artists[i]}, Rating: ${ratings[i]}, Comment: ${comments[i]}"
         }
         songListText.text = songDetails
 
-        // Calculate and display average rating
+        // Calculating and displaying average rating
         val avgRating = if (ratings.isNotEmpty()) ratings.average() else 0.0
         avgRatingText.text = "Average Rating is : %.2f".format(avgRating)
 

@@ -23,13 +23,16 @@ This screenshot show how the UI LOOKS with all its componenets
 
 
 SCREEENSHOT OF DETAIL VIEW SCREEN :
-This screenshot show how the UI LOOKS with all its componenets 
-![DETAIL SCREEN](https://github.com/user-attachments/assets/4fcdc817-bd8b-4cd5-bfa0-91178ad4f2dd)
+This screenshot show how the SECOND UI LOOKS with all its componenets 
+![M2](https://github.com/user-attachments/assets/40c01e43-9607-4f0f-a48e-5ebb541d300f)
+
 
 EMULATOR SCREENSHOTS :
 These screenshots show how the app looks like with the inpts of a user as well as the outputs after the user displaed them while the App is running 
+![emu1](https://github.com/user-attachments/assets/be367167-81d6-4830-9860-fcdf992fb46d)
+![emu2](https://github.com/user-attachments/assets/69ccd356-b340-4e61-9848-1c5d41ae3c1d)
+![EMU3](https://github.com/user-attachments/assets/9818fffa-9beb-4fbd-b6c8-e9d3d2a13307)
+![EMU4](https://github.com/user-attachments/assets/2bf56d55-4fdd-460d-89fa-a29e243934c1)
 
-![EMU1](https://github.com/user-attachments/assets/ce8c9218-3a63-4167-97ce-4ff4c12ec114)
-![EMU2](https://github.com/user-attachments/assets/0795ecd3-383f-40be-9ba0-8788c110f2e9)
-![EMU3](https://github.com/user-attachments/assets/0aadab51-ea53-4f17-b55b-850dec6656ab)
+
 
